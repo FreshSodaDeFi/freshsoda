@@ -1,0 +1,103 @@
+html {
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  background-color: #ffeac3;
+}
+
+.mainnav {
+  background-color: #fffffc;
+}
+
+.logtext {
+  color: #7b2e10;
+}
+
+.app {
+  color: #fffffc;
+  background-color: #fa911b;
+  border: none;
+}
+
+.app:hover {
+  background-color: #fdd283;
+  color: #7b2e10;
+}
+
+.first {
+  color: #7b2e10;
+}
+
+.itm {
+  background-color: #fffffc;
+  border-radius: 10%;
+  border: solid #ffeac3 10px;
+}
+
+.section2 {
+  background-color: #fffffc;
+}
+
+.itm2 {
+  background-color: #ffeac3;
+  border-radius: 10%;
+  border: solid #fffffc 10px;
+}
+
+.telegram-header {
+  width: 100%;
+  background-color: #fa911b;
+  padding: 10px;
+  z-index: 9998;
+  position: sticky;
+  font-family: Rubik, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #fa911b;
+}
+
+.telegram-header img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.end {
+  background-color: #7b2e10;
+  color: #fffffc;
+}
+
+@media only screen and (max-width: 400px) {
+  .app {
+    width: 70px;
+    font-size: 12px;
+  }
+
+  .logoo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .logtext {
+    font-size: 1.3rem;
+  }
+
+  .first {
+    font-size: 1.5rem;
+  }
+
+  .tknm {
+    width: 250px;
+    height: 150px;
+  }
+}
